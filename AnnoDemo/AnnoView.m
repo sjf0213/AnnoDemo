@@ -8,14 +8,24 @@
 
 #import "AnnoView.h"
 
+@interface AnnoView ()
+@property(nonatomic, strong)UIImageView* iconView;
+@end
+
 @implementation AnnoView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        self.backgroundColor = [[UIColor cyanColor] colorWithAlphaComponent:0.1];
+        
+        self.iconView = [[UIImageView alloc] initWithFrame:self.bounds];
+        self.iconView.image = [UIImage imageNamed:@"annoicon"];
+        [self addSubview:self.iconView];
+    }
+    return self;
 }
-*/
+
 
 @end

@@ -7,9 +7,14 @@
 //
 
 #import "AnnoViewController.h"
+#import "AnnoView.h"
+
+const CGFloat AnnoWidth = 46;
+const CGFloat AnnoHeight = 46;
+
 
 @interface AnnoViewController ()
-
+@property(nonatomic, strong)AnnoView* myAnno;
 @end
 
 @implementation AnnoViewController
@@ -19,6 +24,14 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor yellowColor];
+    
+    self.myAnno = [[AnnoView alloc] initWithFrame:CGRectMake(0.5 * (self.view.bounds.size.width - AnnoWidth), 150, AnnoWidth, AnnoHeight)];
+    
+    [self.view addSubview:self.myAnno];
+    
+    
 }
+
+
 
 @end
