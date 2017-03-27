@@ -45,26 +45,32 @@ const NSInteger NUM = 10;
     [self clearContainer];
     
     for (int i = 0; i < NUM; i++) {
-        AnnoView* v = [[AnnoView alloc] initWithFrame:CGRectMake(0, 0, AnnoWidth, AnnoHeight)];
-        NSInteger w0 = self.container.frame.size.width;
-        NSInteger h0 = self.container.frame.size.height;
-        NSInteger x = arc4random()%w0;
-        NSInteger y = arc4random()%h0;
-        v.center = CGPointMake(x, y);
-        [self.container addSubview:v];
-        v.hidden = NO;
-        CAAnimation* anim = [KFAnim animOfView:v WithType:KFAnimTypeIn1];
-        [v.layer addAnimation:anim forKey:@"comeout"];
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * i * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            AnnoView* v = [[AnnoView alloc] initWithFrame:CGRectMake(0, 0, AnnoWidth, AnnoHeight)];
+            NSInteger w0 = self.container.frame.size.width;
+            NSInteger h0 = self.container.frame.size.height;
+            NSInteger x = arc4random()%w0;
+            NSInteger y = arc4random()%h0;
+            v.center = CGPointMake(x, y);
+            [self.container addSubview:v];
+            v.hidden = NO;
+            CAAnimation* anim = [KFAnim animOfView:v WithType:KFAnimTypeIn1];
+            [v.layer addAnimation:anim forKey:@"comeout"];
+        });
     }
 }
 
 -(void)onTapDown:(id)sender{
+    int i = 0;
     for (AnnoView* v in self.container.subviews) {
         if ([v isKindOfClass:[AnnoView class]]){
             v.hidden = NO;
-            CAAnimation* anim = [KFAnim animOfView:v WithType:KFAnimTypeOut1];
-            [v.layer addAnimation:anim forKey:@"buryin"];
+            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * i * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                CAAnimation* anim = [KFAnim animOfView:v WithType:KFAnimTypeOut1];
+                [v.layer addAnimation:anim forKey:@"buryin"];
+            });
         }
+        i++;
     }
 }
 
