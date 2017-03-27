@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F016346F1E88BFC6004BB8FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F016346E1E88BFC6004BB8FA /* main.m */; };
+		F01634721E88BFC6004BB8FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F01634711E88BFC6004BB8FA /* AppDelegate.m */; };
+		F01634781E88BFC6004BB8FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F01634761E88BFC6004BB8FA /* Main.storyboard */; };
+		F016347A1E88BFC6004BB8FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F01634791E88BFC6004BB8FA /* Assets.xcassets */; };
+		F016347D1E88BFC6004BB8FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F016347B1E88BFC6004BB8FA /* LaunchScreen.storyboard */; };
+		F01634861E88C1BC004BB8FA /* AnnoView.m in Sources */ = {isa = PBXBuildFile; fileRef = F01634851E88C1BC004BB8FA /* AnnoView.m */; };
+		F01634891E88C230004BB8FA /* AnnoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01634881E88C230004BB8FA /* AnnoViewController.m */; };
+		F016348C1E88C2CE004BB8FA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F016348B1E88C2CE004BB8FA /* MainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F016346A1E88BFC6004BB8FA /* AnnoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnnoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F016346E1E88BFC6004BB8FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F01634701E88BFC6004BB8FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F01634711E88BFC6004BB8FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F01634771E88BFC6004BB8FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F01634791E88BFC6004BB8FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F016347C1E88BFC6004BB8FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F016347E1E88BFC6004BB8FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F01634841E88C1BC004BB8FA /* AnnoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnoView.h; sourceTree = "<group>"; };
+		F01634851E88C1BC004BB8FA /* AnnoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnoView.m; sourceTree = "<group>"; };
+		F01634871E88C230004BB8FA /* AnnoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnoViewController.h; sourceTree = "<group>"; };
+		F01634881E88C230004BB8FA /* AnnoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnoViewController.m; sourceTree = "<group>"; };
+		F016348A1E88C2CE004BB8FA /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F016348B1E88C2CE004BB8FA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F01634671E88BFC6004BB8FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F01634611E88BFC6004BB8FA = {
+			isa = PBXGroup;
+			children = (
+				F016346C1E88BFC6004BB8FA /* AnnoDemo */,
+				F016346B1E88BFC6004BB8FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F016346B1E88BFC6004BB8FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F016346A1E88BFC6004BB8FA /* AnnoDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F016346C1E88BFC6004BB8FA /* AnnoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F01634871E88C230004BB8FA /* AnnoViewController.h */,
+				F01634881E88C230004BB8FA /* AnnoViewController.m */,
+				F01634841E88C1BC004BB8FA /* AnnoView.h */,
+				F01634851E88C1BC004BB8FA /* AnnoView.m */,
+				F01634701E88BFC6004BB8FA /* AppDelegate.h */,
+				F01634711E88BFC6004BB8FA /* AppDelegate.m */,
+				F016348A1E88C2CE004BB8FA /* MainViewController.h */,
+				F016348B1E88C2CE004BB8FA /* MainViewController.m */,
+				F01634761E88BFC6004BB8FA /* Main.storyboard */,
+				F01634791E88BFC6004BB8FA /* Assets.xcassets */,
+				F016347B1E88BFC6004BB8FA /* LaunchScreen.storyboard */,
+				F016347E1E88BFC6004BB8FA /* Info.plist */,
+				F016346D1E88BFC6004BB8FA /* Supporting Files */,
+			);
+			path = AnnoDemo;
+			sourceTree = "<group>";
+		};
+		F016346D1E88BFC6004BB8FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F016346E1E88BFC6004BB8FA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F01634691E88BFC6004BB8FA /* AnnoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F01634811E88BFC6004BB8FA /* Build configuration list for PBXNativeTarget "AnnoDemo" */;
+			buildPhases = (
+				F01634661E88BFC6004BB8FA /* Sources */,
+				F01634671E88BFC6004BB8FA /* Frameworks */,
+				F01634681E88BFC6004BB8FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnnoDemo;
+			productName = AnnoDemo;
+			productReference = F016346A1E88BFC6004BB8FA /* AnnoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F01634621E88BFC6004BB8FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "宋炬峰";
+				TargetAttributes = {
+					F01634691E88BFC6004BB8FA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2M4WW2KKY5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F01634651E88BFC6004BB8FA /* Build configuration list for PBXProject "AnnoDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F01634611E88BFC6004BB8FA;
+			productRefGroup = F016346B1E88BFC6004BB8FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F01634691E88BFC6004BB8FA /* AnnoDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F01634681E88BFC6004BB8FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F016347D1E88BFC6004BB8FA /* LaunchScreen.storyboard in Resources */,
+				F016347A1E88BFC6004BB8FA /* Assets.xcassets in Resources */,
+				F01634781E88BFC6004BB8FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F01634661E88BFC6004BB8FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F01634861E88C1BC004BB8FA /* AnnoView.m in Sources */,
+				F016348C1E88C2CE004BB8FA /* MainViewController.m in Sources */,
+				F01634721E88BFC6004BB8FA /* AppDelegate.m in Sources */,
+				F016346F1E88BFC6004BB8FA /* main.m in Sources */,
+				F01634891E88C230004BB8FA /* AnnoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F01634761E88BFC6004BB8FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F01634771E88BFC6004BB8FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F016347B1E88BFC6004BB8FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F016347C1E88BFC6004BB8FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F016347F1E88BFC6004BB8FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F01634801E88BFC6004BB8FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F01634821E88BFC6004BB8FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2M4WW2KKY5;
+				INFOPLIST_FILE = AnnoDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mobike.AnnoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F01634831E88BFC6004BB8FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2M4WW2KKY5;
+				INFOPLIST_FILE = AnnoDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mobike.AnnoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F01634651E88BFC6004BB8FA /* Build configuration list for PBXProject "AnnoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F016347F1E88BFC6004BB8FA /* Debug */,
+				F01634801E88BFC6004BB8FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F01634811E88BFC6004BB8FA /* Build configuration list for PBXNativeTarget "AnnoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F01634821E88BFC6004BB8FA /* Debug */,
+				F01634831E88BFC6004BB8FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F01634621E88BFC6004BB8FA /* Project object */;
+}
