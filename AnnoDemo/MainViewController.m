@@ -8,6 +8,7 @@
 
 #import "MainViewController.h"
 #import "AnnoViewController.h"
+#import "MultiAnnoController.h"
 
 @interface MainViewController ()
 
@@ -28,6 +29,11 @@
 - (IBAction)onTapAnno:(id)sender {
     AnnoViewController* annoController = [[AnnoViewController alloc] init];
     [self.navigationController pushViewController:annoController animated:YES];
+}
+
+- (IBAction)onTapMulti:(id)sender {
+    MultiAnnoController* controller = [[MultiAnnoController alloc] init];
+    [self.navigationController pushViewController:controller animated:YES];
 }
 
 /*

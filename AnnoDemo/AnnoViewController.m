@@ -10,8 +10,7 @@
 #import "AnnoView.h"
 #import "KFAnim.h"
 
-const CGFloat AnnoWidth = 46;
-const CGFloat AnnoHeight = 46;
+
 
 
 @interface AnnoViewController ()

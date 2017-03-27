@@ -18,6 +18,7 @@
 		F01634891E88C230004BB8FA /* AnnoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01634881E88C230004BB8FA /* AnnoViewController.m */; };
 		F016348C1E88C2CE004BB8FA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F016348B1E88C2CE004BB8FA /* MainViewController.m */; };
 		F0AC14721E89031D007E7119 /* KFAnim.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AC14711E89031D007E7119 /* KFAnim.m */; };
+		F0AC14751E8909CC007E7119 /* MultiAnnoController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AC14741E8909CC007E7119 /* MultiAnnoController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		F02F79CE1E88E7EA0018065B /* prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = prefix.pch; sourceTree = "<group>"; };
 		F0AC14701E89031D007E7119 /* KFAnim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFAnim.h; sourceTree = "<group>"; };
 		F0AC14711E89031D007E7119 /* KFAnim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFAnim.m; sourceTree = "<group>"; };
+		F0AC14731E8909CC007E7119 /* MultiAnnoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiAnnoController.h; sourceTree = "<group>"; };
+		F0AC14741E8909CC007E7119 /* MultiAnnoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiAnnoController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		F016346C1E88BFC6004BB8FA /* AnnoDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F0AC14731E8909CC007E7119 /* MultiAnnoController.h */,
+				F0AC14741E8909CC007E7119 /* MultiAnnoController.m */,
 				F01634871E88C230004BB8FA /* AnnoViewController.h */,
 				F01634881E88C230004BB8FA /* AnnoViewController.m */,
 				F01634841E88C1BC004BB8FA /* AnnoView.h */,
@@ -189,6 +194,7 @@
 				F016348C1E88C2CE004BB8FA /* MainViewController.m in Sources */,
 				F01634721E88BFC6004BB8FA /* AppDelegate.m in Sources */,
 				F016346F1E88BFC6004BB8FA /* main.m in Sources */,
+				F0AC14751E8909CC007E7119 /* MultiAnnoController.m in Sources */,
 				F01634891E88C230004BB8FA /* AnnoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
