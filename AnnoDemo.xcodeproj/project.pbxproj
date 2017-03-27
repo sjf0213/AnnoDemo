@@ -17,6 +17,7 @@
 		F01634861E88C1BC004BB8FA /* AnnoView.m in Sources */ = {isa = PBXBuildFile; fileRef = F01634851E88C1BC004BB8FA /* AnnoView.m */; };
 		F01634891E88C230004BB8FA /* AnnoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01634881E88C230004BB8FA /* AnnoViewController.m */; };
 		F016348C1E88C2CE004BB8FA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F016348B1E88C2CE004BB8FA /* MainViewController.m */; };
+		F0AC14721E89031D007E7119 /* KFAnim.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AC14711E89031D007E7119 /* KFAnim.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		F016348A1E88C2CE004BB8FA /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		F016348B1E88C2CE004BB8FA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		F02F79CE1E88E7EA0018065B /* prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = prefix.pch; sourceTree = "<group>"; };
+		F0AC14701E89031D007E7119 /* KFAnim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFAnim.h; sourceTree = "<group>"; };
+		F0AC14711E89031D007E7119 /* KFAnim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFAnim.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +86,12 @@
 				F01634881E88C230004BB8FA /* AnnoViewController.m */,
 				F01634841E88C1BC004BB8FA /* AnnoView.h */,
 				F01634851E88C1BC004BB8FA /* AnnoView.m */,
-				F01634701E88BFC6004BB8FA /* AppDelegate.h */,
-				F01634711E88BFC6004BB8FA /* AppDelegate.m */,
+				F0AC14701E89031D007E7119 /* KFAnim.h */,
+				F0AC14711E89031D007E7119 /* KFAnim.m */,
 				F016348A1E88C2CE004BB8FA /* MainViewController.h */,
 				F016348B1E88C2CE004BB8FA /* MainViewController.m */,
+				F01634701E88BFC6004BB8FA /* AppDelegate.h */,
+				F01634711E88BFC6004BB8FA /* AppDelegate.m */,
 				F01634761E88BFC6004BB8FA /* Main.storyboard */,
 				F01634791E88BFC6004BB8FA /* Assets.xcassets */,
 				F016347B1E88BFC6004BB8FA /* LaunchScreen.storyboard */,
@@ -180,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F01634861E88C1BC004BB8FA /* AnnoView.m in Sources */,
+				F0AC14721E89031D007E7119 /* KFAnim.m in Sources */,
 				F016348C1E88C2CE004BB8FA /* MainViewController.m in Sources */,
 				F01634721E88BFC6004BB8FA /* AppDelegate.m in Sources */,
 				F016346F1E88BFC6004BB8FA /* main.m in Sources */,

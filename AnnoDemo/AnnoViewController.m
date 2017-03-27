@@ -8,6 +8,7 @@
 
 #import "AnnoViewController.h"
 #import "AnnoView.h"
+#import "KFAnim.h"
 
 const CGFloat AnnoWidth = 46;
 const CGFloat AnnoHeight = 46;
@@ -44,13 +45,16 @@ const CGFloat AnnoHeight = 46;
 }
 
 -(void)onTapUp:(id)sender{
-    
-    [self.myAnno comeout];
+    self.myAnno.hidden = NO;
+    CAAnimation* anim = [KFAnim animOfView:self.myAnno WithType:KFAnimTypeIn1];
+    [self.myAnno.layer addAnimation:anim forKey:@"comeout"];
 }
 
 -(void)onTapDown:(id)sender{
     
-    [self.myAnno buryin];
+    self.myAnno.hidden = NO;
+    CAAnimation* anim = [KFAnim animOfView:self.myAnno WithType:KFAnimTypeOut1];
+    [self.myAnno.layer addAnimation:anim forKey:@"buryin"];
 }
 
 @end

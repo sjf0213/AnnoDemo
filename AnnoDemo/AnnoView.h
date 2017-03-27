@@ -10,8 +10,4 @@
 
 @interface AnnoView : UIView
 
-
--(void)comeout;
--(void)buryin;
-
 @end
