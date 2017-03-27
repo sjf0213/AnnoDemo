@@ -28,6 +28,7 @@ const CGFloat AnnoHeight = 46;
     self.myAnno = [[AnnoView alloc] initWithFrame:CGRectMake(0.5 * (self.view.bounds.size.width - AnnoWidth), 0.5 * (self.view.bounds.size.height - AnnoHeight), AnnoWidth, AnnoHeight)];
     
     [self.view addSubview:self.myAnno];
+    self.myAnno.hidden = YES;
     
     UIButton* btnUp = [[UIButton alloc] initWithFrame:CGRectMake(0.5 * self.view.bounds.size.width - 120, self.view.bounds.size.height - 100, 100, 50)];
     btnUp.backgroundColor = [UIColor lightGrayColor];
@@ -44,10 +45,12 @@ const CGFloat AnnoHeight = 46;
 
 -(void)onTapUp:(id)sender{
     
+    [self.myAnno comeout];
 }
 
 -(void)onTapDown:(id)sender{
     
+    [self.myAnno buryin];
 }
 
 @end
