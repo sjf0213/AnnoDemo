@@ -18,7 +18,8 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        self.backgroundColor = [[UIColor cyanColor] colorWithAlphaComponent:0.1];
+        //self.backgroundColor = [[UIColor cyanColor] colorWithAlphaComponent:0.1];
+        self.backgroundColor = [UIColor whiteColor];
         
         self.iconView = [[UIImageView alloc] initWithFrame:self.bounds];
         self.iconView.image = [UIImage imageNamed:@"annoicon"];

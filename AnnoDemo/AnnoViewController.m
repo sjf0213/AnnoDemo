@@ -23,15 +23,31 @@ const CGFloat AnnoHeight = 46;
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor yellowColor];
+    self.view.backgroundColor = [UIColor whiteColor];
     
-    self.myAnno = [[AnnoView alloc] initWithFrame:CGRectMake(0.5 * (self.view.bounds.size.width - AnnoWidth), 150, AnnoWidth, AnnoHeight)];
+    self.myAnno = [[AnnoView alloc] initWithFrame:CGRectMake(0.5 * (self.view.bounds.size.width - AnnoWidth), 0.5 * (self.view.bounds.size.height - AnnoHeight), AnnoWidth, AnnoHeight)];
     
     [self.view addSubview:self.myAnno];
     
+    UIButton* btnUp = [[UIButton alloc] initWithFrame:CGRectMake(0.5 * self.view.bounds.size.width - 120, self.view.bounds.size.height - 100, 100, 50)];
+    btnUp.backgroundColor = [UIColor lightGrayColor];
+    [btnUp setTitle:@"Up" forState:UIControlStateNormal];
+    [self.view addSubview:btnUp];
+    [btnUp addTarget:self action:@selector(onTapUp:) forControlEvents:UIControlEventTouchUpInside];
+    
+    UIButton* btnDown = [[UIButton alloc] initWithFrame:CGRectMake(0.5 * self.view.bounds.size.width + 20, self.view.bounds.size.height - 100, 100, 50)];
+    btnDown.backgroundColor = [UIColor lightGrayColor];
+    [btnDown setTitle:@"Down" forState:UIControlStateNormal];
+    [self.view addSubview:btnDown];
+    [btnDown addTarget:self action:@selector(onTapDown:) forControlEvents:UIControlEventTouchUpInside];
+}
+
+-(void)onTapUp:(id)sender{
     
 }
 
-
+-(void)onTapDown:(id)sender{
+    
+}
 
 @end
